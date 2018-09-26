@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ufile-login-test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2b82661-cffe-4c6e-9236-3e76d38a90ff</testCaseGuid>
+   <variable>
+      <defaultValue>'https://ron.m4.net/ubook/ub1983/'</defaultValue>
+      <description></description>
+      <id>14db4e54-1920-4027-8f61-bd90ddf98192</id>
+      <masked>false</masked>
+      <name>siteurl</name>
+   </variable>
+   <variable>
+      <defaultValue>'METAFOUR'</defaultValue>
+      <description></description>
+      <id>00faee96-98fb-436e-9f83-756e5895c67a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'phoenix9'</defaultValue>
+      <description></description>
+      <id>d59a95c1-69b0-4613-8843-47c7495e31b3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

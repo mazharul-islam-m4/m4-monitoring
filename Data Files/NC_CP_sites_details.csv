@@ -1,0 +1,63 @@
+#Courier_code,Courier_name,Site_URL,Client_code,Username,Password
+360,360 World Wide,https://360.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dumm,Jony,1234
+ate,A-Team Express,https://ateamexpress.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,ACME,Jony,1234
+ase,A&S Express Couriers,http://aands.metafour.com/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+uhk,Addison Lee,https://addlee.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,Hasan,MFasia%123
+rew,Air Courier Worldwide Express (ACI),http://aci.metafour.com/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+ajw,AJ WorldWide,https://ajww.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+all,Allen & Overy,http://allenovery.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,Hasan,hasan
+art,Aries Transport,https://ariestransport.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,Test,Jony,1234
+als,Asia Logistics,https://asialogistics.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,Jony,2021
+avg,AVGO (EU),https://avgo-eu.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,DUMMY ASIA,Hasan,hasan
+avg,AVGO (UAE),https://avgo-uae.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,Dummy,Jony,1234
+blu,BlueSky,https://bluesky.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,M4,Jony,1234
+cab,City Air Express Belfast,https://caebfs.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+cad,City Air Express Dublin,https://caedub.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,Hasan,Hasan
+cal,City Air Express London,https://caelhr.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,Hasan,Hasan
+cam,City Air Express Manchester,https://caeman.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,a005,Hasan,hasan
+cms,CMS,http://cms.metafour.com/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+cww,Crisis Worldwide,https://crisisww.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+dms,Demo Mailroom for Reseller,https://dms.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,M4,Jony,1234
+dem,DemoCourier,https://democourier.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,M4,Jony,1234
+eck,eCourier UK,https://ecourieruk.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,6617,Jony,1234
+eur,Eurostar,https://eurostar.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dumm001,clon,clon
+fgx,First Global Xpress (FGX),http://fgx.m4.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+frb,Freight Brokers Ltd,https://freightbrokers.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,ACME,Jony,1234
+man,Hellmann Worldwide Logistics,https://hellmann.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+ind,Indy Spain,https://indyspain.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+icc,Inter Continent Couriers (ICC),https://icc.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+ilg,International Logistics Group (ILG),https://ilg.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,M4,clon,clon
+itd,ITD Global,https://itd.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+mnz,Menzies,https://menzies.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,M4,clon,clon
+msk,MSK Logistics,http://msk.m4.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+nxs,Nexus Supplier Management,http://nexus.metafour.com/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated/,dummy,clon,clon
+pcg,Precision Cargo,https://precision.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+san,Santis,http://santis.m4.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+snr,Send & Receive,https://snr.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+syp,Simply Parcel,https://simplyparcel.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,M4,Jony,1234
+tcc,The Courier Company,https://tcc.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy2,Hasan,hasan
+srd,The Shard / Ultimate Security,https://shard.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+tde,Time Definite Express,https://tde.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,M4,Jony,1234
+ttn,Titan Logistics,https://titan.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+top,Topflight Couriers,https://topflight.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+sic,Transworld Imports,http://transworld.netcourier.net/metafour-auth/authenticate?appId=clon&accessCode=&continue=/online/authenticated,dummy,clon,clon
+adg,AG,https://swisspostsolutions.metafour.com/ub3026/,Master,Hasan,hasan
+brt,Barts Health (Hosted in AWS),https://swisspostsolutions.metafour.com/ub5249/,BARTS,Jony,1234
+bny,BNYM,https://swisspostsolutions.metafour.com/ub6962/,dummy,Jony,MFasia%001
+bpg,BP,https://swisspostsolutions.metafour.com/ub1439/,dummy,Jony,MFasia%098
+bup,BUPA,https://swisspostsolutions.metafour.com/ub6350,BUPA,Jony,1234
+can,Canon,https://swisspostsolutions.metafour.com/ub5254/,Master,Hasan,hasan
+crs,Credit Suisse,https://swisspostsolutions.metafour.com/ub6053,CS,Jony,1234
+emr,Emirates,https://swisspostsolutions.metafour.com/ub3803/,CSDTC,Jony,MFasia%123
+hsb,HSBC,https://swisspostsolutions.metafour.com/ub4722/,spstest,clon,MFasia%123
+jds,JD Sports,https://swisspostsolutions.metafour.com/ub8865/,SPS,Jony,1234
+kwm,KWM,https://swisspostsolutions.metafour.com/ub1737/,dummy,Hasan,hasan
+nbc,NBC Universal,https://swisspostsolutions.metafour.com/ub9761/,dummy,Hasan,hasan
+nin,News International,https://swisspostsolutions.metafour.com/ub7588/,sps,Hasan,Mfasia%125
+png,P&G Australia,https://swisspostsolutions.metafour.com/ub1788/,PGSYD,Hasan,hasan
+phl,Philips Netherlands,https://swisspostsolutions.metafour.com/ub8499/,spstest,clon,MFasia%001
+shl,Shell,https://swisspostsolutions.metafour.com/ub8893/,dummy,seratun,MFasia%002
+spr,SPS demo,https://swisspostsolutions.metafour.com/ub1234/,sps,Jony,spsdemo0321
+sps,SPS Master site,https://swisspostsolutions.metafour.com/ub8888/,master,admin,R1chm0nd1
+uat,SPS UAT,https://swisspostsolutions.metafour.com/ub4321,uat,Jony,MFasia%21
+ttu,Talk Talk,https://swisspostsolutions.metafour.com/ub3533/,spstest,Jony,1234

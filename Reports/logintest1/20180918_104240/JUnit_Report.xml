@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="logintest1" time="756" tests="18" failures="4" errors="0">
+   <testsuite name="logintest1" tests="18" failures="4" errors="0" time="756" timestamp="2018-09-18 10:42:43" hostname="Mazhar - 192.168.0.60" id="Test Suites/logintest1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mazha\\Katalon Studio\\m4-monitoring\\Reports\\logintest1\\20180918_104240"/>
+         <property name="logFiles" value="C:\\Users\\mazha\\Katalon Studio\\m4-monitoring\\Reports\\logintest1\\20180918_104240\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\mazha\\Katalon Studio\\m4-monitoring\\Reports\\logintest1\\20180918_104240\\1537246352403.png, C:\\Users\\mazha\\Katalon Studio\\m4-monitoring\\Reports\\logintest1\\20180918_104240\\1537246440746.png"/>
+         <property name="hostName" value="Mazhar - 192.168.0.60"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Firefox 54.0"/>
+         <property name="hostAddress" value="192.168.0.60"/>
+         <property name="sessionId" value="ae6b9e76-c1c4-4738-9d2c-cd22e021400b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:42:43 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:42:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://ateamexpress.netcourier.net/netcourier-data/'
+
+2018-09-18 10:42:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ateamexpress.netcourier.net/netcourier-data/'
+
+2018-09-18 10:42:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ateamexpress.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:43:04 - [MESSAGE][PASSED] - Navigate to 'https://ateamexpress.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:43:04 - [TEST_STEP][PASSED] - setText: Text 'ate' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:43:12 - [MESSAGE][PASSED] - Text 'ate' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:43:12 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:43:13 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:43:13 - [TEST_STEP][PASSED] - setText: Text 'qtate174u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:43:13 - [MESSAGE][PASSED] - Text 'qtate174u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:43:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:43:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:43:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:43:21 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:43:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:43:21 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:43:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:43:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:43:22 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:43:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://aands.netcourier.net/netcourier-data/'
+
+2018-09-18 10:43:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://aands.netcourier.net/netcourier-data/'
+
+2018-09-18 10:43:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://aands.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:43:40 - [MESSAGE][PASSED] - Navigate to 'https://aands.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:43:40 - [TEST_STEP][PASSED] - setText: Text 'ase' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:43:47 - [MESSAGE][PASSED] - Text 'ase' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:43:47 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:43:48 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:43:48 - [TEST_STEP][PASSED] - setText: Text 'qtase071u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:43:48 - [MESSAGE][PASSED] - Text 'qtase071u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:43:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:43:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:43:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:43:57 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:43:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:43:57 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:43:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:43:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:43:57 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:43:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://addlee.netcourier.net/netcourier-data'
+
+2018-09-18 10:44:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://addlee.netcourier.net/netcourier-data'
+
+2018-09-18 10:44:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://addlee.netcourier.net/netcourier-data' successfully
+
+2018-09-18 10:44:16 - [MESSAGE][PASSED] - Navigate to 'https://addlee.netcourier.net/netcourier-data' successfully
+
+2018-09-18 10:44:16 - [TEST_STEP][PASSED] - setText: Text 'uhk' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:44:23 - [MESSAGE][PASSED] - Text 'uhk' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:44:23 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:44:24 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:44:24 - [TEST_STEP][PASSED] - setText: Text 'qtuhk078u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:44:24 - [MESSAGE][PASSED] - Text 'qtuhk078u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:44:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:44:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:44:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:44:33 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:44:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:44:33 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:44:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:44:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:44:34 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:44:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://aci.netcourier.net/netcourier-data'
+
+2018-09-18 10:44:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://aci.netcourier.net/netcourier-data'
+
+2018-09-18 10:44:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://aci.netcourier.net/netcourier-data' successfully
+
+2018-09-18 10:44:52 - [MESSAGE][PASSED] - Navigate to 'https://aci.netcourier.net/netcourier-data' successfully
+
+2018-09-18 10:44:52 - [TEST_STEP][PASSED] - setText: Text 'rew' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:45:02 - [MESSAGE][PASSED] - Text 'rew' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:45:02 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:45:02 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:45:02 - [TEST_STEP][PASSED] - setText: Text 'qtrew023u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:45:03 - [MESSAGE][PASSED] - Text 'qtrew023u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:45:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:45:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:45:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:45:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:45:12 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:45:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:45:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:45:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:45:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:45:12 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:45:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://ajww.netcourier.net/netcourier-data/'
+
+2018-09-18 10:45:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ajww.netcourier.net/netcourier-data/'
+
+2018-09-18 10:45:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ajww.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:45:30 - [MESSAGE][PASSED] - Navigate to 'https://ajww.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:45:30 - [TEST_STEP][PASSED] - setText: Text 'ajw' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:45:37 - [MESSAGE][PASSED] - Text 'ajw' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:45:37 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:45:37 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:45:37 - [TEST_STEP][PASSED] - setText: Text 'qtajw084u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:45:37 - [MESSAGE][PASSED] - Text 'qtajw084u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:45:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:45:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:45:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:45:46 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:45:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:45:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:45:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:45:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:45:46 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:45:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://allenovery.netcourier.net/netcourier-data/'
+
+2018-09-18 10:46:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://allenovery.netcourier.net/netcourier-data/'
+
+2018-09-18 10:46:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://allenovery.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:46:05 - [MESSAGE][PASSED] - Navigate to 'http://allenovery.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:46:05 - [TEST_STEP][PASSED] - setText: Text 'all' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:46:11 - [MESSAGE][PASSED] - Text 'all' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:46:11 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:46:12 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:46:12 - [TEST_STEP][PASSED] - setText: Text 'qtall047u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:46:12 - [MESSAGE][PASSED] - Text 'qtall047u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:46:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:46:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:46:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:46:21 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:46:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:46:21 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:46:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:46:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:46:21 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:46:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://ariestransport.netcourier.net/netcourier-data/'
+
+2018-09-18 10:46:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ariestransport.netcourier.net/netcourier-data/'
+
+2018-09-18 10:46:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ariestransport.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:46:39 - [MESSAGE][PASSED] - Navigate to 'https://ariestransport.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:46:39 - [TEST_STEP][PASSED] - setText: Text 'art' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:46:46 - [MESSAGE][PASSED] - Text 'art' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:46:46 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:46:46 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:46:46 - [TEST_STEP][PASSED] - setText: Text 'qtart070u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:46:47 - [MESSAGE][PASSED] - Text 'qtart070u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:46:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:46:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:46:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:46:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:46:55 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:46:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:46:55 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:46:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:46:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:46:55 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:46:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://asialogistics.netcourier.net/netcourier-data/'
+
+2018-09-18 10:47:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://asialogistics.netcourier.net/netcourier-data/'
+
+2018-09-18 10:47:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://asialogistics.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:47:13 - [MESSAGE][PASSED] - Navigate to 'https://asialogistics.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:47:13 - [TEST_STEP][PASSED] - setText: Text 'als' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:47:19 - [MESSAGE][PASSED] - Text 'als' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:47:19 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:47:19 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:47:19 - [TEST_STEP][PASSED] - setText: Text 'qtals263u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:47:20 - [MESSAGE][PASSED] - Text 'qtals263u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:47:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:47:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:47:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:47:29 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:47:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:47:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:47:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:47:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:47:29 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:47:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://avgo-eu.netcourier.net/netcourier-data/'
+
+2018-09-18 10:47:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://avgo-eu.netcourier.net/netcourier-data/'
+
+2018-09-18 10:47:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://avgo-eu.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:47:46 - [MESSAGE][PASSED] - Navigate to 'https://avgo-eu.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:47:46 - [TEST_STEP][PASSED] - setText: Text 'avg' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:47:53 - [MESSAGE][PASSED] - Text 'avg' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:47:53 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:47:53 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:47:53 - [TEST_STEP][PASSED] - setText: Text 'qtavg031u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:47:53 - [MESSAGE][PASSED] - Text 'qtavg031u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:47:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:47:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:48:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:48:02 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:48:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:48:02 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:48:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:48:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:48:02 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:48:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://avgo-uae.netcourier.net/netcourier-data/'
+
+2018-09-18 10:48:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://avgo-uae.netcourier.net/netcourier-data/'
+
+2018-09-18 10:48:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://avgo-uae.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:48:20 - [MESSAGE][PASSED] - Navigate to 'https://avgo-uae.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:48:20 - [TEST_STEP][PASSED] - setText: Text 'avg' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:48:26 - [MESSAGE][PASSED] - Text 'avg' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:48:26 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:48:26 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:48:26 - [TEST_STEP][PASSED] - setText: Text 'qtavg131u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:48:27 - [MESSAGE][PASSED] - Text 'qtavg131u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:48:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:48:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:48:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:48:35 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:48:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:48:35 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:48:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:48:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:48:36 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:48:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://bluesky.netcourier.net/netcourier-data/'
+
+2018-09-18 10:48:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://bluesky.netcourier.net/netcourier-data/'
+
+2018-09-18 10:48:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bluesky.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:48:54 - [MESSAGE][PASSED] - Navigate to 'https://bluesky.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:48:54 - [TEST_STEP][PASSED] - setText: Text 'blu' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:49:01 - [MESSAGE][PASSED] - Text 'blu' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:49:01 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:49:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:49:01 - [TEST_STEP][PASSED] - setText: Text 'qtblu158u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:49:01 - [MESSAGE][PASSED] - Text 'qtblu158u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:49:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:49:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:49:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:49:11 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:49:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:49:11 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:49:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:49:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:49:12 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:49:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://caebfs.netcourier.net/netcourier-data/'
+
+2018-09-18 10:49:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://caebfs.netcourier.net/netcourier-data/'
+
+2018-09-18 10:49:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://caebfs.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:49:29 - [MESSAGE][PASSED] - Navigate to 'https://caebfs.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:49:29 - [TEST_STEP][PASSED] - setText: Text 'cab' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:49:35 - [MESSAGE][PASSED] - Text 'cab' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:49:35 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:49:35 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:49:35 - [TEST_STEP][PASSED] - setText: Text 'qtcab083u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:49:36 - [MESSAGE][PASSED] - Text 'qtcab083u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:49:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:49:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:49:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:49:44 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:49:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:49:44 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:49:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:49:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:49:44 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:49:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://caedub.netcourier.net/netcourier-data/'
+
+2018-09-18 10:49:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://caedub.netcourier.net/netcourier-data/'
+
+2018-09-18 10:49:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://caedub.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:50:02 - [MESSAGE][PASSED] - Navigate to 'https://caedub.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:50:02 - [TEST_STEP][PASSED] - setText: Text 'cad' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:50:08 - [MESSAGE][PASSED] - Text 'cad' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:50:08 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:50:08 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:50:08 - [TEST_STEP][PASSED] - setText: Text 'qtcad084u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:50:08 - [MESSAGE][PASSED] - Text 'qtcad084u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:50:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:50:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:50:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:50:17 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:50:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:50:17 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:50:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:50:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:50:17 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:50:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://caelhr.netcourier.net/netcourier-data/'
+
+2018-09-18 10:50:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://caelhr.netcourier.net/netcourier-data/'
+
+2018-09-18 10:50:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://caelhr.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:50:35 - [MESSAGE][PASSED] - Navigate to 'https://caelhr.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:50:35 - [TEST_STEP][PASSED] - setText: Text 'cal' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:50:43 - [MESSAGE][PASSED] - Text 'cal' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:50:43 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:50:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:50:43 - [TEST_STEP][PASSED] - setText: Text 'qtcal081u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:50:43 - [MESSAGE][PASSED] - Text 'qtcal081u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:50:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:50:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:50:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:50:52 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:50:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:50:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:50:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:50:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:50:53 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:50:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://caeman.netcourier.net/netcourier-data/'
+
+2018-09-18 10:51:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://caeman.netcourier.net/netcourier-data/'
+
+2018-09-18 10:51:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://caeman.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:51:10 - [MESSAGE][PASSED] - Navigate to 'https://caeman.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:51:10 - [TEST_STEP][PASSED] - setText: Text 'cam' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:51:16 - [MESSAGE][PASSED] - Text 'cam' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:51:16 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:51:17 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:51:17 - [TEST_STEP][PASSED] - setText: Text 'qtcam082u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:51:17 - [MESSAGE][PASSED] - Text 'qtcam082u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:51:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:51:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:51:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:51:25 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:51:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:51:25 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:51:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:51:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ctp' of object 'Object Repository/Page_Metafour User Login/input_Login_access_code' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Metafour User Login/input_Login_access_code' located by 'By.xpath: //input[@id='access_code']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1537185514861.run(Script1537185514861.groovy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537245761510.run(TempTestSuite1537245761510.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-18 10:51:26 - [TEST_CASE][FAILED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ctp' of object 'Object Repository/Page_Metafour User Login/input_Login_access_code' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Metafour User Login/input_Login_access_code' located by 'By.xpath: //input[@id='access_code']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1537185514861.run(Script1537185514861.groovy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537245761510.run(TempTestSuite1537245761510.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-18 10:51:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://citypost.netcourier.net/netcourier-data/'
+
+2018-09-18 10:51:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://citypost.netcourier.net/netcourier-data/'
+
+2018-09-18 10:51:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://citypost.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:51:58 - [MESSAGE][PASSED] - Navigate to 'https://citypost.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:51:58 - [TEST_STEP][FAILED] - setText: Unable to set text 'ctp' of object 'Object Repository/Page_Metafour User Login/input_Login_access_code' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Metafour User Login/input_Login_access_code' located by 'By.xpath: //input[@id='access_code']' not found)
+
+2018-09-18 10:52:32 - [MESSAGE][FAILED] - Unable to set text 'ctp' of object 'Object Repository/Page_Metafour User Login/input_Login_access_code' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Metafour User Login/input_Login_access_code' located by 'By.xpath: //input[@id='access_code']' not found)
+[[ATTACHMENT|C:\\Users\\mazha\\Katalon Studio\\m4-monitoring\\Reports\\logintest1\\20180918_104240\\1537246352403.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-18 10:51:26 - [TEST_CASE][FAILED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ctp' of object 'Object Repository/Page_Metafour User Login/input_Login_access_code' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Metafour User Login/input_Login_access_code' located by 'By.xpath: //input[@id='access_code']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1537185514861.run(Script1537185514861.groovy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537245761510.run(TempTestSuite1537245761510.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:52:32 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:52:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://cms.netcourier.net/netcourier-data/'
+
+2018-09-18 10:52:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-18 10:52:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://cms.netcourier.net/netcourier-data/'
+
+2018-09-18 10:52:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cms.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:52:50 - [MESSAGE][PASSED] - Navigate to 'https://cms.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:52:50 - [TEST_STEP][PASSED] - setText: Text 'cms' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:52:56 - [MESSAGE][PASSED] - Text 'cms' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:52:56 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:52:56 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:52:56 - [TEST_STEP][PASSED] - setText: Text 'qtcms058u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:52:56 - [MESSAGE][PASSED] - Text 'qtcms058u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:52:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:53:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:53:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:53:05 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:53:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:53:05 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:53:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:53:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:53:05 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:53:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://crisisww.netcourier.net/netcourier-data/'
+
+2018-09-18 10:53:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://crisisww.netcourier.net/netcourier-data/'
+
+2018-09-18 10:53:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://crisisww.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:53:23 - [MESSAGE][PASSED] - Navigate to 'https://crisisww.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:53:23 - [TEST_STEP][PASSED] - setText: Text 'cww' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:53:29 - [MESSAGE][PASSED] - Text 'cww' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:53:29 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:53:29 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:53:29 - [TEST_STEP][PASSED] - setText: Text 'qtcww299u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:53:29 - [MESSAGE][PASSED] - Text 'qtcww299u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:53:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:53:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:53:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:53:38 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:53:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:53:38 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:53:38 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:53:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Metafour User Login/div_Sorry login failed' is not present (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: The information you have entered on this page will be sent over an insecure connection and could be read by a third party.
+
+Are you sure you want to send this information?): The information you have entered on this page will be sent over an insecure connection and could be read by a third party.
+
+Are you sure you want to send this information?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 54.0.1, webStorageEnabled: true}
+Session ID: fb0b70c5-f568-4998-86a6-a73b055ae761
+*** Element info: {Using=xpath, value=//div[@id='customerrormessagediv']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$3.call(Unknown Source)
+	at Script1537185514861.run(Script1537185514861.groovy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537245761510.run(TempTestSuite1537245761510.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-18 10:53:38 - [TEST_CASE][FAILED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Metafour User Login/div_Sorry login failed' is not present (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: The information you have entered on this page will be sent over an insecure connection and could be read by a third party.
+
+Are you sure you want to send this information?): The information you have entered on this page will be sent over an insecure connection and could be read by a third party.
+
+Are you sure you want to send this information?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 54.0.1, webStorageEnabled: true}
+Session ID: fb0b70c5-f568-4998-86a6-a73b055ae761
+*** Element info: {Using=xpath, value=//div[@id='customerrormessagediv']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$3.call(Unknown Source)
+	at Script1537185514861.run(Script1537185514861.groovy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537245761510.run(TempTestSuite1537245761510.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-18 10:53:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://democourier.netcourier.net/netcourier-data'
+
+2018-09-18 10:53:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://democourier.netcourier.net/netcourier-data'
+
+2018-09-18 10:53:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://democourier.netcourier.net/netcourier-data' successfully
+
+2018-09-18 10:53:53 - [MESSAGE][PASSED] - Navigate to 'https://democourier.netcourier.net/netcourier-data' successfully
+
+2018-09-18 10:53:53 - [TEST_STEP][PASSED] - setText: Text 'dem' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:53:57 - [MESSAGE][PASSED] - Text 'dem' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:53:57 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:53:57 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:53:57 - [TEST_STEP][PASSED] - setText: Text 'qtdem999u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:53:57 - [MESSAGE][PASSED] - Text 'qtdem999u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:53:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:53:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:54:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:54:00 - [TEST_STEP][FAILED] - verifyElementNotPresent: Unable to verify object 'Object Repository/Page_Metafour User Login/div_Sorry login failed' is not present (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: The information you have entered on this page will be sent over an insecure connection and could be read by a third party.
+
+Are you sure you want to send this information?): The information you have entered on this page will be sent over an insecure connection and could be read by a third party.
+
+Are you sure you want to send this information?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 54.0.1, webStorageEnabled: true}
+Session ID: fb0b70c5-f568-4998-86a6-a73b055ae761
+*** Element info: {Using=xpath, value=//div[@id='customerrormessagediv']})
+
+2018-09-18 10:54:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:54:00 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Metafour User Login/div_Sorry login failed' is not present (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: The information you have entered on this page will be sent over an insecure connection and could be read by a third party.
+
+Are you sure you want to send this information?): The information you have entered on this page will be sent over an insecure connection and could be read by a third party.
+
+Are you sure you want to send this information?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 54.0.1, webStorageEnabled: true}
+Session ID: fb0b70c5-f568-4998-86a6-a73b055ae761
+*** Element info: {Using=xpath, value=//div[@id='customerrormessagediv']})
+[[ATTACHMENT|C:\\Users\\mazha\\Katalon Studio\\m4-monitoring\\Reports\\logintest1\\20180918_104240\\1537246440746.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-18 10:53:38 - [TEST_CASE][FAILED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Metafour User Login/div_Sorry login failed' is not present (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: The information you have entered on this page will be sent over an insecure connection and could be read by a third party.
+
+Are you sure you want to send this information?): The information you have entered on this page will be sent over an insecure connection and could be read by a third party.
+
+Are you sure you want to send this information?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 54.0.1, webStorageEnabled: true}
+Session ID: fb0b70c5-f568-4998-86a6-a73b055ae761
+*** Element info: {Using=xpath, value=//div[@id='customerrormessagediv']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$3.call(Unknown Source)
+	at Script1537185514861.run(Script1537185514861.groovy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537245761510.run(TempTestSuite1537245761510.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:54:00 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:54:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://dms.netcourier.net/netcourier-data/'
+
+2018-09-18 10:54:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-18 10:54:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dms.netcourier.net/netcourier-data/'
+
+2018-09-18 10:54:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://dms.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:54:20 - [MESSAGE][PASSED] - Navigate to 'https://dms.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:54:20 - [TEST_STEP][PASSED] - setText: Text 'dms' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:54:30 - [MESSAGE][PASSED] - Text 'dms' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:54:30 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:54:31 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:54:31 - [TEST_STEP][PASSED] - setText: Text 'qtdms087u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:54:31 - [MESSAGE][PASSED] - Text 'qtdms087u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:54:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:54:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:54:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:54:40 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:54:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:54:40 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:54:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:54:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Metafour User Login/div_Sorry login failed' is not present (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:28864 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$3.call(Unknown Source)
+	at Script1537185514861.run(Script1537185514861.groovy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537245761510.run(TempTestSuite1537245761510.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-18 10:54:40 - [TEST_CASE][FAILED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Metafour User Login/div_Sorry login failed' is not present (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:28864 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$3.call(Unknown Source)
+	at Script1537185514861.run(Script1537185514861.groovy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537245761510.run(TempTestSuite1537245761510.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-18 10:54:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://dsv.netcourier.net/netcourier-data/'
+
+2018-09-18 10:54:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dsv.netcourier.net/netcourier-data/'
+
+2018-09-18 10:54:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://dsv.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:54:57 - [MESSAGE][PASSED] - Navigate to 'https://dsv.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:54:57 - [TEST_STEP][PASSED] - setText: Text 'sbs' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:55:04 - [MESSAGE][PASSED] - Text 'sbs' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:55:04 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:55:04 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:55:04 - [TEST_STEP][PASSED] - setText: Text 'qtsbs099u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:55:05 - [MESSAGE][PASSED] - Text 'qtsbs099u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:55:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:55:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:55:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:55:13 - [TEST_STEP][FAILED] - verifyElementNotPresent: Unable to verify object 'Object Repository/Page_Metafour User Login/div_Sorry login failed' is not present (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:28864 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver)
+
+2018-09-18 10:55:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:55:17 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-09-18 10:55:17 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Metafour User Login/div_Sorry login failed' is not present (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:28864 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver)]]></system-out>
+         <system-err><![CDATA[2018-09-18 10:54:40 - [TEST_CASE][FAILED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Metafour User Login/div_Sorry login failed' is not present (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:28864 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$3.call(Unknown Source)
+	at Script1537185514861.run(Script1537185514861.groovy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537245761510.run(TempTestSuite1537245761510.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://ecourieruk.netcourier.net/netcourier-data/' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:28864 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1537185514861.run(Script1537185514861.groovy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537245761510.run(TempTestSuite1537245761510.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-18 10:55:17 - [TEST_CASE][FAILED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://ecourieruk.netcourier.net/netcourier-data/' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:28864 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1537185514861.run(Script1537185514861.groovy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537245761510.run(TempTestSuite1537245761510.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-18 10:55:17 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://ecourieruk.netcourier.net/netcourier-data/' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:28864 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver)
+
+2018-09-18 10:55:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-18 10:55:20 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://ecourieruk.netcourier.net/netcourier-data/' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:28864 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver)]]></system-out>
+         <system-err><![CDATA[2018-09-18 10:55:17 - [TEST_CASE][FAILED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://ecourieruk.netcourier.net/netcourier-data/' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:28864 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MAZHAR-PC', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1537185514861.run(Script1537185514861.groovy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537245761510.run(TempTestSuite1537245761510.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="INCOMPLETE">
+         <system-out><![CDATA[2018-09-18 10:55:20 - [TEST_CASE][INCOMPLETE] - Test Cases/nc_bo_login-test: null
+
+2018-09-18 10:55:20 - [TEST_STEP][INCOMPLETE] - openBrowser: Starting 'Firefox' driver]]></system-out>
+         <system-err><![CDATA[2018-09-18 10:55:20 - [TEST_CASE][INCOMPLETE] - Test Cases/nc_bo_login-test: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-18 10:42:43 - [TEST_SUITE][INCOMPLETE] - logintest1: null]]></system-out>
+      <system-err><![CDATA[2018-09-18 10:42:43 - [TEST_SUITE][INCOMPLETE] - logintest1: null]]></system-err>
+   </testsuite>
+</testsuites>

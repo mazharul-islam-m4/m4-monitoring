@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ITrak site login test case</description>
+   <name>iTrack-login-test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee570b39-a3a4-4244-9397-41b112317c6c</testCaseGuid>
+   <variable>
+      <defaultValue>'https://ms.m4.net/it2930/'</defaultValue>
+      <description></description>
+      <id>dfb38694-40d5-4d8b-9fe9-541c183717a8</id>
+      <masked>false</masked>
+      <name>siteurl</name>
+   </variable>
+   <variable>
+      <defaultValue>'METAFOURc'</defaultValue>
+      <description></description>
+      <id>6c2c777f-19bf-4a0b-90c9-e37fd4c78f6c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Itr@k2mt4'</defaultValue>
+      <description></description>
+      <id>2ff706fa-7dee-4cde-a891-2f9459719dbd</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

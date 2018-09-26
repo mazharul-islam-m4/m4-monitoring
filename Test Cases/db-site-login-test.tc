@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>db-site-login-test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dff637ff-449a-4d1d-bf07-8932ba5ccc6d</testCaseGuid>
+   <variable>
+      <defaultValue>'https://db.m4.net/it2411'</defaultValue>
+      <description></description>
+      <id>8bc1956c-e8ef-4c32-8291-212c95e53a7d</id>
+      <masked>false</masked>
+      <name>siteurl</name>
+   </variable>
+   <variable>
+      <defaultValue>'METAFOUR'</defaultValue>
+      <description></description>
+      <id>365945c6-7077-4d25-abe1-f64f561b8817</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Itr@k2mt4'</defaultValue>
+      <description></description>
+      <id>598c86b0-178f-464f-9e02-8e2357aa41e0</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

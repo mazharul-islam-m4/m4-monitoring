@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="itrak-login-test-suit" time="54" tests="2" failures="0" errors="0">
+   <testsuite name="itrak-login-test-suit" tests="2" failures="0" errors="0" time="54" timestamp="2018-09-25 11:32:06" hostname="Mazhar - mazhar-pc.metafour.lan" id="Test Suites/itrak-login-test-suit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mazha\\Katalon Studio\\m4-monitoring\\Reports\\itrak-login-test-suit\\20180925_113205"/>
+         <property name="logFiles" value="C:\\Users\\mazha\\Katalon Studio\\m4-monitoring\\Reports\\itrak-login-test-suit\\20180925_113205\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mazhar - mazhar-pc.metafour.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Firefox 54.0"/>
+         <property name="hostAddress" value="192.168.0.60"/>
+         <property name="sessionId" value="adeae9d1-55ce-4ea0-887d-cd33c4b7a6f3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/db-site-login-test" classname="Test Cases/db-site-login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-25 11:32:06 - [TEST_CASE][PASSED] - Test Cases/db-site-login-test: Test Cases/db-site-login-test
+
+2018-09-25 11:32:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://db.m4.net/it2411'
+
+2018-09-25 11:32:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://db.m4.net/it2411'
+
+2018-09-25 11:32:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://db.m4.net/it2411' successfully
+
+2018-09-25 11:32:17 - [MESSAGE][PASSED] - Navigate to 'https://db.m4.net/it2411' successfully
+
+2018-09-25 11:32:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-25 11:32:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-25 11:32:21 - [TEST_STEP][PASSED] - setText: Text 'METAFOUR' is set on object 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Username_loginFormuserId'
+
+2018-09-25 11:32:21 - [MESSAGE][PASSED] - Text 'METAFOUR' is set on object 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Username_loginFormuserId'
+
+2018-09-25 11:32:21 - [TEST_STEP][PASSED] - setText: Text 'Itr@k2mt4' is set on object 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Password_loginFormpasswo'
+
+2018-09-25 11:32:21 - [MESSAGE][PASSED] - Text 'Itr@k2mt4' is set on object 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Password_loginFormpasswo'
+
+2018-09-25 11:32:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Password_loginFormidSubm' is clicked on
+
+2018-09-25 11:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Password_loginFormidSubm' is clicked on
+
+2018-09-25 11:32:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-25 11:32:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-25 11:32:28 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-25 11:32:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/db-site-login-test" classname="Test Cases/db-site-login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-25 11:32:28 - [TEST_CASE][PASSED] - Test Cases/db-site-login-test: Test Cases/db-site-login-test
+
+2018-09-25 11:32:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://db.m4.net/it2412'
+
+2018-09-25 11:32:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://db.m4.net/it2412'
+
+2018-09-25 11:32:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://db.m4.net/it2412' successfully
+
+2018-09-25 11:32:37 - [MESSAGE][PASSED] - Navigate to 'https://db.m4.net/it2412' successfully
+
+2018-09-25 11:32:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-25 11:32:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-25 11:32:40 - [TEST_STEP][PASSED] - setText: Text 'METAFOUR' is set on object 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Username_loginFormuserId'
+
+2018-09-25 11:32:41 - [MESSAGE][PASSED] - Text 'METAFOUR' is set on object 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Username_loginFormuserId'
+
+2018-09-25 11:32:41 - [TEST_STEP][PASSED] - setText: Text 'Itr@k2mt4' is set on object 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Password_loginFormpasswo'
+
+2018-09-25 11:32:41 - [MESSAGE][PASSED] - Text 'Itr@k2mt4' is set on object 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Password_loginFormpasswo'
+
+2018-09-25 11:32:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Password_loginFormidSubm' is clicked on
+
+2018-09-25 11:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Password_loginFormidSubm' is clicked on
+
+2018-09-25 11:32:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-25 11:32:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-25 11:32:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-25 11:32:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/db-site-login-test" classname="Test Cases/db-site-login-test" status="INCOMPLETE">
+         <system-out><![CDATA[2018-09-25 11:32:48 - [TEST_CASE][INCOMPLETE] - Test Cases/db-site-login-test: null
+
+2018-09-25 11:32:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://db.m4.net/it2413'
+
+2018-09-25 11:32:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://db.m4.net/it2413'
+
+2018-09-25 11:32:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://db.m4.net/it2413' successfully
+
+2018-09-25 11:32:57 - [MESSAGE][PASSED] - Navigate to 'https://db.m4.net/it2413' successfully
+
+2018-09-25 11:32:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-25 11:33:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-25 11:33:00 - [TEST_STEP][PASSED] - setText: Text 'METAFOUR' is set on object 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Username_loginFormuserId'
+
+2018-09-25 11:33:00 - [MESSAGE][PASSED] - Text 'METAFOUR' is set on object 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Username_loginFormuserId'
+
+2018-09-25 11:33:00 - [TEST_STEP][PASSED] - setText: Text 'Itr@k2mt4' is set on object 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Password_loginFormpasswo'
+
+2018-09-25 11:33:01 - [MESSAGE][PASSED] - Text 'Itr@k2mt4' is set on object 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Password_loginFormpasswo'
+
+2018-09-25 11:33:01 - [TEST_STEP][INCOMPLETE] - click: Clicking on object: 'Object Repository/itrack_obj/Page_iTrak2  Login/input_Password_loginFormidSubm']]></system-out>
+         <system-err><![CDATA[2018-09-25 11:32:48 - [TEST_CASE][INCOMPLETE] - Test Cases/db-site-login-test: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-25 11:32:06 - [TEST_SUITE][INCOMPLETE] - itrak-login-test-suit: null]]></system-out>
+      <system-err><![CDATA[2018-09-25 11:32:06 - [TEST_SUITE][INCOMPLETE] - itrak-login-test-suit: null]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="logintest1" time="32" tests="1" failures="0" errors="0">
+   <testsuite name="logintest1" tests="1" failures="0" errors="0" time="32" timestamp="2018-09-18 10:55:48" hostname="Mazhar - 192.168.0.60" id="Test Suites/logintest1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mazha\\Katalon Studio\\m4-monitoring\\Reports\\logintest1\\20180918_105546"/>
+         <property name="logFiles" value="C:\\Users\\mazha\\Katalon Studio\\m4-monitoring\\Reports\\logintest1\\20180918_105546\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mazhar - 192.168.0.60"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.92"/>
+         <property name="hostAddress" value="192.168.0.60"/>
+         <property name="sessionId" value="6037caf30231aa16afe5da51c9fead9f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:55:49 - [TEST_CASE][PASSED] - Test Cases/nc_bo_login-test: Test Cases/nc_bo_login-test
+
+2018-09-18 10:55:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://ateamexpress.netcourier.net/netcourier-data/'
+
+2018-09-18 10:55:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ateamexpress.netcourier.net/netcourier-data/'
+
+2018-09-18 10:55:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ateamexpress.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:55:59 - [MESSAGE][PASSED] - Navigate to 'https://ateamexpress.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:55:59 - [TEST_STEP][PASSED] - setText: Text 'ate' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:56:04 - [MESSAGE][PASSED] - Text 'ate' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:56:04 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:56:04 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:56:04 - [TEST_STEP][PASSED] - setText: Text 'qtate174u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:56:04 - [MESSAGE][PASSED] - Text 'qtate174u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:56:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metafour User Login/button_Sign in' is clicked on
+
+2018-09-18 10:56:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-18 10:56:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 10:56:10 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:56:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 10:56:10 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Metafour User Login/div_Sorry login failed' located by 'By.xpath: //div[@id='customerrormessagediv']' is not present after '30' second(s)
+
+2018-09-18 10:56:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 10:56:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nc_bo_login-test" classname="Test Cases/nc_bo_login-test" status="INCOMPLETE">
+         <system-out><![CDATA[2018-09-18 10:56:11 - [TEST_CASE][INCOMPLETE] - Test Cases/nc_bo_login-test: null
+
+2018-09-18 10:56:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://aands.netcourier.net/netcourier-data/'
+
+2018-09-18 10:56:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://aands.netcourier.net/netcourier-data/'
+
+2018-09-18 10:56:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://aands.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:56:17 - [MESSAGE][PASSED] - Navigate to 'https://aands.netcourier.net/netcourier-data/' successfully
+
+2018-09-18 10:56:17 - [TEST_STEP][PASSED] - setText: Text 'ase' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:56:21 - [MESSAGE][PASSED] - Text 'ase' is set on object 'Object Repository/Page_Metafour User Login/input_Login_access_code'
+
+2018-09-18 10:56:21 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:56:21 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Metafour User Login/input_Login_login'
+
+2018-09-18 10:56:21 - [TEST_STEP][PASSED] - setText: Text 'qtase071u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:56:21 - [MESSAGE][PASSED] - Text 'qtase071u' is set on object 'Object Repository/Page_Metafour User Login/input_Login_j_password'
+
+2018-09-18 10:56:21 - [TEST_STEP][INCOMPLETE] - click: Clicking on object: 'Object Repository/Page_Metafour User Login/button_Sign in']]></system-out>
+         <system-err><![CDATA[2018-09-18 10:56:11 - [TEST_CASE][INCOMPLETE] - Test Cases/nc_bo_login-test: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-18 10:55:48 - [TEST_SUITE][INCOMPLETE] - logintest1: null]]></system-out>
+      <system-err><![CDATA[2018-09-18 10:55:48 - [TEST_SUITE][INCOMPLETE] - logintest1: null]]></system-err>
+   </testsuite>
+</testsuites>

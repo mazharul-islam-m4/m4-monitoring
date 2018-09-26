@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Nc data login test</description>
+   <name>nc_bo_login-test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1d87c65-6661-466c-be38-663507df61be</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ee077b1f-2b12-4bc3-b32a-79f2f81a608a</id>
+      <masked>false</masked>
+      <name>accesscode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1a5edcf3-db45-40c4-bbb0-e8a63c381226</id>
+      <masked>false</masked>
+      <name>couriername</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ef80eacd-acec-4418-9147-e083be6c1a63</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>827f05b1-15d6-4666-b53b-dc80d4064d5a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b9180983-9f33-40fc-91b1-4570679b92f1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
